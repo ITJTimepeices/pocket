@@ -939,8 +939,8 @@ function renderPlanPanel() {
     </div>
     ${plan !== 'pro' ? `
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:4px">
-      ${plan === 'free' ? `<button class="btn b" onclick="upgradePlan('plus')">Upgrade to Plus — £5/mo</button>` : ''}
-      <button class="btn" style="border-color:rgba(167,139,250,.35);color:var(--purple);background:rgba(167,139,250,.1)" onclick="upgradePlan('pro')">Upgrade to Pro — £15/mo</button>
+      ${plan === 'free' ? `<button class="btn b" onclick="window.open('https://indymatheson.gumroad.com/l/foddcb')">Upgrade to Plus — £5/mo</button>` : ''}
+      <button class="btn" style="border-color:rgba(167,139,250,.35);color:var(--purple);background:rgba(167,139,250,.1)" onclick="window.open('https://indymatheson.gumroad.com/l/wjeowy')">Upgrade to Pro — £15/mo</button>
     </div>
     <p style="font-size:10px;font-family:var(--fm);color:var(--subtle);margin-top:6px">Payment integration coming soon. Upgrading currently grants full access for demo purposes.</p>
     ` : `<p style="font-size:11px;font-family:var(--fm);color:var(--muted)">You're on the Pro plan — enjoy all features! ✓</p>`}
